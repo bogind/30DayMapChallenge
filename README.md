@@ -38,7 +38,7 @@ Each map will use a different color pallete from the [Pokemon Color Palettes](ht
 
 A map showing the centroids (and polygons, I'm not a monster) of all the countries that do not contain their centroids, meaning the center of the country is outside of its borders.  
 The maps background and features are styled using the **Abra** color pallete.  
-!(https://pokepalettes.com/images/sprites/poke/bw/63.png)
+
 
 <img src="1-Points(Abra).png" alt="drawing" width="60%"/>
 
@@ -62,6 +62,6 @@ The maps background and features are styled using the **Abra** color pallete.
 
 A map created using a data elevation model (DEM) of Mars [freely available from NASA](https://astrogeology.usgs.gov/search/map/Mars/GlobalSurveyor/MOLA/Mars_MGS_MOLA_DEM_mosaic_global_463m) along with some digitized features around the Valles Marineris and Olympus Mons (the tallest mountain in the solar system).  
 The map was styles with th **Gastly** color pallete.  
-!(https://pokepalettes.com/images/sprites/poke/bw/92.png)
+
 
 <img src="10-Raster(Gastly).png" alt="10-Raster(Gastly)" width="60%"/>
