@@ -40,7 +40,7 @@ A map showing the centroids (and polygons, I'm not a monster) of all the countri
 The maps background and features are styled using the **Abra** color pallete.  
 !(https://pokepalettes.com/images/sprites/poke/bw/63.png)
 
-<img src="1-Points(Abra).png" alt="drawing" width="30%"/>
+<img src="1-Points(Abra).png" alt="drawing" width="60%"/>
 
 ## Map 2 - Lines
 
@@ -64,4 +64,4 @@ A map created using a data elevation model (DEM) of Mars [freely available from 
 The map was styles with th **Gastly** color pallete.  
 !(https://pokepalettes.com/images/sprites/poke/bw/92.png)
 
-<img src="10-Raster(Gastly).png" alt="10-Raster(Gastly)" width="30%"/>
+<img src="10-Raster(Gastly).png" alt="10-Raster(Gastly)" width="60%"/>
