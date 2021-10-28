@@ -5,7 +5,7 @@ Each map will use a different color pallete from the [Pokemon Color Palettes](ht
 |---|----|-----|----|-----|-------------|
 1|01-11-2021|Points|&check;|Coutries whose centroids are disjoint|Abra|
 2|02-11-2021|Lines|&check;|San Francisco roads (OSM)|Nidorina|
-3|03-11-2021|Polygons||San Francisco buildings (OSM)|Nidorino|
+3|03-11-2021|Polygons|&check;|San Francisco buildings (OSM)|Nidorino|
 4|04-11-2021|Hexagons||hexagons of population density|||
 5|05-11-2021|Data challenge 1: OpenStreetMap|&check;|A literal streep map|Onix|
 6|06-11-2021|Red|||Charmander|
@@ -52,6 +52,12 @@ The maps background and features are styled using the **Nidorina** color pallete
 <img src="2-Lines(Nidorina).png" alt="drawing" width="60%"/>
 
 ## Map 3 - Polygons
+
+Map showing the buildings in San Francisco, California, United States, Clipped to the shape of the pokemon **Nidorino** hiding in tall grass.  
+The maps background and features are styled using the **Nidorino** color pallete.  
+
+
+<img src="3-Polygons(Nidorino).png" alt="drawing" width="60%"/>
 
 ## Map 4 - Hexagons
 
