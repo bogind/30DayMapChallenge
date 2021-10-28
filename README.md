@@ -5,9 +5,9 @@ Each map will use a different color pallete from the [Pokemon Color Palettes](ht
 |---|----|-----|----|-----|-------------|
 1|01-11-2021|Points|&check;|Coutries whose centroids are disjoint|Abra|
 2|02-11-2021|Lines|&check;|San Francisco roads (OSM)|Nidorina|
-3|03-11-2021|Polygons||||
+3|03-11-2021|Polygons||San Francisco buildings (OSM)|Nidorino|
 4|04-11-2021|Hexagons||hexagons of population density|||
-5|05-11-2021|Data challenge 1: OpenStreetMap||A literal streep map|||
+5|05-11-2021|Data challenge 1: OpenStreetMap|&check;|A literal streep map|Onix|
 6|06-11-2021|Red|||Charmander|
 7|07-11-2021|Green|||Bulbasaur|
 8|08-11-2021|Blue|||Squirtle|
@@ -36,7 +36,8 @@ Each map will use a different color pallete from the [Pokemon Color Palettes](ht
 
 ## Map 1 - Points
 
-A map showing the centroids (and polygons, I'm not a monster) of all the countries that do not contain their centroids, meaning the center of the country is outside of its borders.  
+A map showing the centroids (and polygons, I'm not a monster) of all the countries that do not contain their centroids,   
+meaning the center of the country is outside of its borders.   
 The maps background and features are styled using the **Abra** color pallete.  
 
 
@@ -44,7 +45,7 @@ The maps background and features are styled using the **Abra** color pallete.
 
 ## Map 2 - Lines
 
-Map showing the roads in San Francisco, California, United States, Clipped to the shape of the pokemon **Nidorina** hiding in tall grass.
+Map showing the roads in San Francisco, California, United States, Clipped to the shape of the pokemon **Nidorina** hiding in tall grass.  
 The maps background and features are styled using the **Nidorina** color pallete.  
 
 
@@ -55,6 +56,11 @@ The maps background and features are styled using the **Nidorina** color pallete
 ## Map 4 - Hexagons
 
 ## Map 5 - Data challenge 1: OpenStreetMap
+
+Map showing the roads in Tel Aviv - Yafo, Israel (focused because I used a larger land polygon and the coastline was messed up),  
+The maps background and features are styled using the **Onix** color pallete.  
+
+<img src="5-OpenStreetMap(Onix).png" alt="5-OpenStreetMap(Onix)" width="60%"/>
 
 ## Map 6 - Red
 
