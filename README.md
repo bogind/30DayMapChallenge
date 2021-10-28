@@ -13,7 +13,7 @@ Each map will use a different color pallete from the [Pokemon Color Palettes](ht
 8|08-11-2021|Blue|||Squirtle|
 9|09-11-2021|Monochrome||||
 10|10-11-2021|Raster|&check;|Mars DEM|Gastly|
-11|11-11-2021|3D||||
+11|11-11-2021|3D|&check;|Extruded Buildings Tel Aviv, by OSM height\levels|Porygon|
 12|12-11-2021|Population||||
 13|13-11-2021|Data challenge 2: Natural Earth||||
 14|14-11-2021|Map with a new tool||||
@@ -79,6 +79,13 @@ The map was styles with th **Gastly** color pallete.
 <img src="10-Raster(Gastly).png" alt="10-Raster(Gastly)" width="60%"/>
 
 ## Map 11 - 3D
+
+Map showing extruded buildings and roads in Tel Aviv - Yafo, Israel.   
+extrusion is by z factor for roads, for buildings extrusion is by height when available, number of levels (times 4 meters),  
+or 8 meters when neither height or levels is available.  
+The maps background and features are styled using the **Porygon** color pallete. 
+
+<img src="11-3D(Porygon).png" alt="11-3D(Porygon).png" width="60%"/>
 
 ## Map 12 - Population
 
