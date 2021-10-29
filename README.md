@@ -6,12 +6,12 @@ Each map will use a different color pallete from the [Pokemon Color Palettes](ht
 1|01-11-2021|Points|&check;|Coutries whose centroids are disjoint|Abra|
 2|02-11-2021|Lines|&check;|San Francisco roads (OSM)|Nidorina|
 3|03-11-2021|Polygons|&check;|San Francisco buildings (OSM)|Nidorino|
-4|04-11-2021|Hexagons||hexagons of population density|||
+4|04-11-2021|Hexagons||hexagons of population density||Machop|
 5|05-11-2021|Data challenge 1: OpenStreetMap|&check;|A literal streep map|Onix|
-6|06-11-2021|Red|||Charmander|
-7|07-11-2021|Green|||Bulbasaur|
-8|08-11-2021|Blue|||Squirtle|
-9|09-11-2021|Monochrome||||
+6|06-11-2021|Red|&check;|London - Buildings, Railroads, Greenspaces|Charmander|
+7|07-11-2021|Green|&check;|London - Buildings, Railroads, Greenspaces|Bulbasaur|
+8|08-11-2021|Blue|&check;|London - Buildings, Railroads, Greenspaces|Squirtle|
+9|09-11-2021|Monochrome|||Ditto|
 10|10-11-2021|Raster|&check;|Mars DEM|Gastly|
 11|11-11-2021|3D|&check;|Extruded Buildings Tel Aviv, by OSM height\levels|Porygon|
 12|12-11-2021|Population||||
@@ -23,7 +23,7 @@ Each map will use a different color pallete from the [Pokemon Color Palettes](ht
 18|18-11-2021|Water||||
 19|19-11-2021|Island(s)||||
 20|20-11-2021|Movement||Honeymoon road trip?||
-21|21-11-2021|Elevation||||
+21|21-11-2021|Elevation||Isle of Skye Tanaka Contours||
 22|22-11-2021|Boundaries||||
 23|23-11-2021|Data challenge 3: GHSL Global Human Settlement Layer||||
 24|24-11-2021|Historical map||||
@@ -70,9 +70,44 @@ The maps background and features are styled using the **Onix** color pallete.
 
 ## Map 6 - Red
 
+Days 6,7,8 all show the same data, but in different color palletes,  
+For this I took a similiar approach to how my wife makes these maps,  
+but in pokemon colors, if you're looking for a good looking map of London,   
+you can check out [her etsy shop](https://www.etsy.com/il-en/listing/1101325891/london-city-map-choose-your-color)
+
+<a href="https://www.etsy.com/il-en/listing/1101325891/london-city-map-choose-your-color"><img src="https://i.etsystatic.com/32245569/r/il/c6a803/3408945690/il_794xN.3408945690_c082.jpg" alt="London Four Colors" width="25%"/></a>
+
+Map showing the buildings, greendspaces, and railroads in London, England, United Kingdom.
+
+The maps background and features are styled using the **Charmander** color pallete. 
+
+data from Open Zoomstack - OS data © Crown copyright and database right 2021
+
+<img src="6-Red(Charmander).png" alt="6-Red(Charmander).png" width="60%"/>
+
 ## Map 7 - Green
 
+Days 6,7,8 all show the same data, but in different color palletes,  
+For this I took a similiar approach to how my wife makes these maps,  
+but in pokemon colors, if you're looking for a good looking map of London,   
+you can check out [her etsy shop](https://www.etsy.com/il-en/listing/1101325891/london-city-map-choose-your-color)
+
+The maps background and features are styled using the **Bulbasaur** color pallete. 
+
+data from Open Zoomstack - OS data © Crown copyright and database right 2021
+<img src="7-Green(Bulbasaur).png" alt="7-Green(Bulbasaur).png" width="60%"/>
+
 ## Map 8 - Blue
+
+Days 6,7,8 all show the same data, but in different color palletes,  
+For this I took a similiar approach to how my wife makes these maps,  
+but in pokemon colors, if you're looking for a good looking map of London,   
+you can check out [her etsy shop](https://www.etsy.com/il-en/listing/1101325891/london-city-map-choose-your-color)
+
+The maps background and features are styled using the **Squirtle** color pallete. 
+
+data from Open Zoomstack - OS data © Crown copyright and database right 2021
+<img src="8-Blue(Squirtle).png" alt="8-Blue(Squirtle).png" width="60%"/>
 
 ## Map 9 - Monochrome
 
@@ -125,7 +160,9 @@ The maps background and features are styled using the **Porygon** color pallete.
 
 ## Map 27 - Heatmap
 
-## Map 29 - The Earth is not flat
+## Map 28 - The Earth is not flat
+
+## Map 29 - NULL
 
 ## Day 30 - Metamapping day
 
