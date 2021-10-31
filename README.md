@@ -6,7 +6,7 @@ Each map will use a different color pallete from the [Pokemon Color Palettes](ht
 1|01-11-2021|Points|&check;|Coutries whose centroids are disjoint|Abra|
 2|02-11-2021|Lines|&check;|San Francisco roads (OSM)|Nidorina|
 3|03-11-2021|Polygons|&check;|San Francisco buildings (OSM)|Nidorino|
-4|04-11-2021|Hexagons||hexagons of population density||Machop|
+4|04-11-2021|Hexagons|&check;|Hexagons of population, South America|Pikachu|
 5|05-11-2021|Data challenge 1: OpenStreetMap|&check;|A literal streep map|Onix|
 6|06-11-2021|Red|&check;|London - Buildings, Railroads, Greenspaces|Charmander|
 7|07-11-2021|Green|&check;|London - Buildings, Railroads, Greenspaces|Bulbasaur|
@@ -60,6 +60,12 @@ The maps background and features are styled using the **Nidorino** color pallete
 <img src="3-Polygons(Nidorino).png" alt="drawing" width="60%"/>
 
 ## Map 4 - Hexagons
+
+Map showing South Americe split into hexagons 50km high and wide anc colored by population estimate,   
+without a legend because the colors have exactly 0 meaning and the ramp is not graduated.    
+The maps background and features are styled using the **Pikachu** color pallete.
+
+<img src="4-Hexagons(Pikachu).png" alt="drawing" width="60%"/>
 
 ## Map 5 - Data challenge 1: OpenStreetMap
 
