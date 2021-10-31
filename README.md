@@ -1,7 +1,7 @@
 # 30 Days Map Challenge 2021 (Pokemon Edition)
-Each map will use a different color pallete from the [Pokemon Color Palettes](https://plugins.qgis.org/styles/103/) for QGIS available in QGIS HUB.
+Each map will use a different color palette from the [Pokemon Color Palettes](https://plugins.qgis.org/styles/103/) for QGIS available in QGIS HUB.
 
-|Day|Date|Theme|Done|Ideas|Color Pallete|
+|Day|Date|Theme|Done|Ideas|Color palette|
 |---|----|-----|----|-----|-------------|
 1|01-11-2021|Points|&check;|Coutries whose centroids are disjoint|Abra|
 2|02-11-2021|Lines|&check;|San Francisco roads (OSM)|Nidorina|
@@ -38,7 +38,7 @@ Each map will use a different color pallete from the [Pokemon Color Palettes](ht
 
 A map showing the centroids (and polygons, I'm not a monster) of all the countries that do not contain their centroids,   
 meaning the center of the country is outside of its borders.   
-The maps background and features are styled using the **Abra** color pallete.  
+The maps background and features are styled using the **Abra** color palette.  
 
 
 <img src="1-Points(Abra).png" alt="drawing" width="60%"/>
@@ -46,7 +46,7 @@ The maps background and features are styled using the **Abra** color pallete.
 ## Map 2 - Lines
 
 Map showing the roads in San Francisco, California, United States, Clipped to the shape of the pokemon **Nidorina** hiding in tall grass.  
-The maps background and features are styled using the **Nidorina** color pallete.  
+The maps background and features are styled using the **Nidorina** color palette.  
 
 
 <img src="2-Lines(Nidorina).png" alt="drawing" width="60%"/>
@@ -54,7 +54,7 @@ The maps background and features are styled using the **Nidorina** color pallete
 ## Map 3 - Polygons
 
 Map showing the buildings in San Francisco, California, United States, Clipped to the shape of the pokemon **Nidorino** hiding in tall grass.  
-The maps background and features are styled using the **Nidorino** color pallete.  
+The maps background and features are styled using the **Nidorino** color palette.  
 
 
 <img src="3-Polygons(Nidorino).png" alt="drawing" width="60%"/>
@@ -63,20 +63,20 @@ The maps background and features are styled using the **Nidorino** color pallete
 
 Map showing South Americe split into hexagons 50km high and wide anc colored by population estimate,   
 without a legend because the colors have exactly 0 meaning and the ramp is not graduated.    
-The maps background and features are styled using the **Pikachu** color pallete.
+The maps background and features are styled using the **Pikachu** color palette.
 
 <img src="4-Hexagons(Pikachu).png" alt="drawing" width="60%"/>
 
 ## Map 5 - Data challenge 1: OpenStreetMap
 
 Map showing the roads in Tel Aviv - Yafo, Israel (focused because I used a larger land polygon and the coastline was messed up),  
-The maps background and features are styled using the **Onix** color pallete.  
+The maps background and features are styled using the **Onix** color palette.  
 
 <img src="5-OpenStreetMap(Onix).png" alt="5-OpenStreetMap(Onix)" width="60%"/>
 
 ## Map 6 - Red
 
-Days 6,7,8 all show the same data, but in different color palletes,  
+Days 6,7,8 all show the same data, but in different color palettes,  
 For this I took a similiar approach to how my wife makes these maps,  
 but in pokemon colors, if you're looking for a good looking map of London,   
 you can check out [her etsy shop](https://www.etsy.com/il-en/listing/1101325891/london-city-map-choose-your-color)
@@ -85,7 +85,7 @@ you can check out [her etsy shop](https://www.etsy.com/il-en/listing/1101325891/
 
 Map showing the buildings, greendspaces, and railroads in London, England, United Kingdom.
 
-The maps background and features are styled using the **Charmander** color pallete. 
+The maps background and features are styled using the **Charmander** color palette. 
 
 data from Open Zoomstack - OS data © Crown copyright and database right 2021
 
@@ -93,12 +93,12 @@ data from Open Zoomstack - OS data © Crown copyright and database right 2021
 
 ## Map 7 - Green
 
-Days 6,7,8 all show the same data, but in different color palletes,  
+Days 6,7,8 all show the same data, but in different color palettes,  
 For this I took a similiar approach to how my wife makes these maps,  
 but in pokemon colors, if you're looking for a good looking map of London,   
 you can check out [her etsy shop](https://www.etsy.com/il-en/listing/1101325891/london-city-map-choose-your-color)
 
-The maps background and features are styled using the **Bulbasaur** color pallete. 
+The maps background and features are styled using the **Bulbasaur** color palette. 
 
 data from Open Zoomstack - OS data © Crown copyright and database right 2021  
 
@@ -106,12 +106,12 @@ data from Open Zoomstack - OS data © Crown copyright and database right 2021
 
 ## Map 8 - Blue
 
-Days 6,7,8 all show the same data, but in different color palletes,  
+Days 6,7,8 all show the same data, but in different color palettes,  
 For this I took a similiar approach to how my wife makes these maps,  
 but in pokemon colors, if you're looking for a good looking map of London,   
 you can check out [her etsy shop](https://www.etsy.com/il-en/listing/1101325891/london-city-map-choose-your-color)
 
-The maps background and features are styled using the **Squirtle** color pallete. 
+The maps background and features are styled using the **Squirtle** color palette. 
 
 data from Open Zoomstack - OS data © Crown copyright and database right 2021  
 
@@ -122,7 +122,7 @@ data from Open Zoomstack - OS data © Crown copyright and database right 2021
 ## Map 10 - Raster
 
 A map created using a data elevation model (DEM) of Mars [freely available from NASA](https://astrogeology.usgs.gov/search/map/Mars/GlobalSurveyor/MOLA/Mars_MGS_MOLA_DEM_mosaic_global_463m) along with some digitized features around the Valles Marineris and Olympus Mons (the tallest mountain in the solar system).  
-The map was styles with th **Gastly** color pallete.  
+The map was styles with th **Gastly** color palette.  
 
 
 <img src="10-Raster(Gastly).png" alt="10-Raster(Gastly)" width="60%"/>
@@ -132,7 +132,7 @@ The map was styles with th **Gastly** color pallete.
 Map showing extruded buildings and roads in Tel Aviv - Yafo, Israel.   
 extrusion is by z factor for roads, for buildings extrusion is by height when available, number of levels (times 4 meters),  
 or 8 meters when neither height or levels is available.  
-The maps background and features are styled using the **Porygon** color pallete. 
+The maps background and features are styled using the **Porygon** color palette. 
 
 <img src="11-3D(Porygon).png" alt="11-3D(Porygon).png" width="60%"/>
 
