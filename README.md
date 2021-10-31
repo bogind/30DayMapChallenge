@@ -89,7 +89,7 @@ The maps background and features are styled using the **Charmander** color palle
 
 data from Open Zoomstack - OS data © Crown copyright and database right 2021
 
-<img src="6-Red(Charmander).png" alt="6-Red(Charmander).png" width="60%"/>
+<img src="6-Red(Charmander).png" alt="6-Red(Charmander).png" width="60%"/><img src="https://pokepalettes.com/images/sprites/poke/bw/4.png"/>
 
 ## Map 7 - Green
 
@@ -100,8 +100,9 @@ you can check out [her etsy shop](https://www.etsy.com/il-en/listing/1101325891/
 
 The maps background and features are styled using the **Bulbasaur** color pallete. 
 
-data from Open Zoomstack - OS data © Crown copyright and database right 2021
-<img src="7-Green(Bulbasaur).png" alt="7-Green(Bulbasaur).png" width="60%"/>
+data from Open Zoomstack - OS data © Crown copyright and database right 2021  
+
+<img src="7-Green(Bulbasaur).png" alt="7-Green(Bulbasaur).png" width="60%"/><img src="https://pokepalettes.com/images/sprites/poke/bw/1.png"/>
 
 ## Map 8 - Blue
 
@@ -112,8 +113,9 @@ you can check out [her etsy shop](https://www.etsy.com/il-en/listing/1101325891/
 
 The maps background and features are styled using the **Squirtle** color pallete. 
 
-data from Open Zoomstack - OS data © Crown copyright and database right 2021
-<img src="8-Blue(Squirtle).png" alt="8-Blue(Squirtle).png" width="60%"/>
+data from Open Zoomstack - OS data © Crown copyright and database right 2021  
+
+<img src="8-Blue(Squirtle).png" alt="8-Blue(Squirtle).png" width="60%"/><img src="https://pokepalettes.com/images/sprites/poke/bw/7.png"/>
 
 ## Map 9 - Monochrome
 
