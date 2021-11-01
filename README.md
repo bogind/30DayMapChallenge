@@ -12,7 +12,7 @@ All maps, unless stated otherwise, are made using only QGIS.
 6|06-11-2021|Red|&check;|London - Buildings, Railroads, Greenspaces|Charmander|
 7|07-11-2021|Green|&check;|London - Buildings, Railroads, Greenspaces|Bulbasaur|
 8|08-11-2021|Blue|&check;|London - Buildings, Railroads, Greenspaces|Squirtle|
-9|09-11-2021|Monochrome|||Ditto|
+9|09-11-2021|Monochrome|&check;|Rivers & Lakes in North America|Ditto|
 10|10-11-2021|Raster|&check;|Mars DEM|Gastly|
 11|11-11-2021|3D|&check;|Extruded Buildings Tel Aviv, by OSM height\levels|Porygon|
 12|12-11-2021|Population||||
@@ -42,7 +42,7 @@ meaning the center of the country is outside of its borders.
 The maps background and features are styled using the **Abra** color palette.  
 
 
-<img src="1-Points(Abra).png" alt="drawing" width="60%"/>
+<img src="1-Points(Abra).png" alt="1-Points(Abra)" width="60%"/>
 
 ## Map 2 - Lines
 
@@ -50,7 +50,7 @@ Map showing the roads in San Francisco, California, United States, Clipped to th
 The maps background and features are styled using the **Nidorina** color palette.  
 
 
-<img src="2-Lines(Nidorina).png" alt="drawing" width="60%"/>
+<img src="2-Lines(Nidorina).png" alt="2-Lines(Nidorina)" width="60%"/>
 
 ## Map 3 - Polygons
 
@@ -58,7 +58,7 @@ Map showing the buildings in San Francisco, California, United States, Clipped t
 The maps background and features are styled using the **Nidorino** color palette.  
 
 
-<img src="3-Polygons(Nidorino).png" alt="drawing" width="60%"/>
+<img src="3-Polygons(Nidorino).png" alt="3-Polygons(Nidorino)" width="60%"/>
 
 ## Map 4 - Hexagons
 
@@ -66,7 +66,7 @@ Map showing South Americe split into hexagons 50km high and wide anc colored by 
 without a legend because the colors have exactly 0 meaning and the ramp is not graduated.    
 The maps background and features are styled using the **Pikachu** color palette.
 
-<img src="4-Hexagons(Pikachu).png" alt="drawing" width="60%"/>
+<img src="4-Hexagons(Pikachu).png" alt="4-Hexagons(Pikachu)" width="60%"/>
 
 ## Map 5 - Data challenge 1: OpenStreetMap
 
@@ -90,7 +90,7 @@ The maps background and features are styled using the **Charmander** color palet
 
 data from Open Zoomstack - OS data © Crown copyright and database right 2021
 
-<img src="6-Red(Charmander).png" alt="6-Red(Charmander).png" width="60%"/><img src="https://pokepalettes.com/images/sprites/poke/bw/4.png"/>
+<img src="6-Red(Charmander).png" alt="6-Red(Charmander)" width="60%"/><img src="https://pokepalettes.com/images/sprites/poke/bw/4.png"/>
 
 ## Map 7 - Green
 
@@ -103,7 +103,7 @@ The maps background and features are styled using the **Bulbasaur** color palett
 
 data from Open Zoomstack - OS data © Crown copyright and database right 2021  
 
-<img src="7-Green(Bulbasaur).png" alt="7-Green(Bulbasaur).png" width="60%"/><img src="https://pokepalettes.com/images/sprites/poke/bw/1.png"/>
+<img src="7-Green(Bulbasaur).png" alt="7-Green(Bulbasaur)" width="60%"/><img src="https://pokepalettes.com/images/sprites/poke/bw/1.png"/>
 
 ## Map 8 - Blue
 
@@ -116,9 +116,14 @@ The maps background and features are styled using the **Squirtle** color palette
 
 data from Open Zoomstack - OS data © Crown copyright and database right 2021  
 
-<img src="8-Blue(Squirtle).png" alt="8-Blue(Squirtle).png" width="60%"/><img src="https://pokepalettes.com/images/sprites/poke/bw/7.png"/>
+<img src="8-Blue(Squirtle).png" alt="8-Blue(Squirtle)" width="60%"/><img src="https://pokepalettes.com/images/sprites/poke/bw/7.png"/>
 
 ## Map 9 - Monochrome
+
+Map showing rivers and lakes in North America, all data form Natural Earth, rivers width by scale.  
+The maps background and features are styled using the **Ditto** color palette.   
+
+<img src="9-Monochrome(Ditto).png" alt="9-Monochrome(Ditto)" width="60%"/>
 
 ## Map 10 - Raster
 
