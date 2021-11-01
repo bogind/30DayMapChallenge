@@ -1,5 +1,6 @@
 # 30 Days Map Challenge 2021 (Pokemon Edition)
-Each map will use a different color palette from the [Pokemon Color Palettes](https://plugins.qgis.org/styles/103/) for QGIS available in QGIS HUB.
+Each map will use a different color palette from the [Pokemon Color Palettes](https://plugins.qgis.org/styles/103/) for QGIS available in QGIS HUB.  
+All maps, unless stated otherwise, are made using only QGIS.
 
 |Day|Date|Theme|Done|Ideas|Color palette|
 |---|----|-----|----|-----|-------------|
