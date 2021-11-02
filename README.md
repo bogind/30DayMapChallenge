@@ -18,7 +18,7 @@ All maps, unless stated otherwise, are made using only QGIS.
 12|12-11-2021|Population|&check;|Urban Centers Population Growth in Great Britain|Victreebell|
 13|13-11-2021|Data challenge 2: Natural Earth|&check;|Just a bunch of Natural Earth layers|Nidoqueen&Nidoking|
 14|14-11-2021|Map with a new tool|&check;|San Francisco elevation hexagons|Venusaur|
-15|15-11-2021|Map made without using a computer||||
+15|15-11-2021|Map made without using a computer|&check;|Pokemon Leaf Green Kanto Map (screenshoted from phone)|Golbat|
 16|16-11-2021|Urban/rural||||
 17|17-11-2021|Land||||
 18|18-11-2021|Water||||
@@ -177,6 +177,11 @@ Changed the color scale to use **Venusaur** colors.
 <img src="14-New Tool(Venusaur).gif" alt="14-New Tool(Venusaur)" width="60%"/>
 
 ## Map 15 - Map made without using a computer
+
+For this one I just screenshot the Kanto region map fro Pokemon Leaf Green from an emulator on my phone.  
+Used QGIS to add stripes over it to get a filter with **Golbat** Color Palette.  
+
+<img src="15-No Computer(Golbat).png" alt="15-No Computer(Golbat)" width="60%"/>
 
 ## Map 16 - Urban/rural
 
