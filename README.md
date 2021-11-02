@@ -46,7 +46,10 @@ The maps background and features are styled using the **Abra** color palette.
 
 ## Map 2 - Lines
 
+Maps 2 and 3 belong to the same project, except for the roads layer in map 2 and the buildings layer in map 3 they are the same.  
+The switch in symbology is done using map themes and an expression that check if a specific layer is visible.  
 Map showing the roads in San Francisco, California, United States, Clipped to the shape of the pokemon **Nidorina** hiding in tall grass.  
+Clipping was done with a traced polygon in the map layout, and background created with a random marker fill over a white simple fill.   
 The maps background and features are styled using the **Nidorina** color palette.  
 
 
@@ -54,7 +57,10 @@ The maps background and features are styled using the **Nidorina** color palette
 
 ## Map 3 - Polygons
 
+Maps 2 and 3 belong to the same project, except for the roads layer in map 2 and the buildings layer in map 3 they are the same.  
+The switch in symbology is done using map themes and an expression that check if a specific layer is visible.  
 Map showing the buildings in San Francisco, California, United States, Clipped to the shape of the pokemon **Nidorino** hiding in tall grass.  
+Clipping was done with a traced polygon in the map layout, and background created with a random marker fill over a white simple fill.   
 The maps background and features are styled using the **Nidorino** color palette.  
 
 
@@ -64,6 +70,7 @@ The maps background and features are styled using the **Nidorino** color palette
 
 Map showing South Americe split into hexagons 50km high and wide anc colored by population estimate,   
 without a legend because the colors have exactly 0 meaning and the ramp is not graduated.    
+The grid was created in QGIS and then connected to a Natural Earth countries layer through a spatial join.  
 The maps background and features are styled using the **Pikachu** color palette.
 
 <img src="4-Hexagons(Pikachu).png" alt="4-Hexagons(Pikachu)" width="60%"/>
@@ -84,7 +91,7 @@ you can check out [her etsy shop](https://www.etsy.com/il-en/listing/1101325891/
 
 <a href="https://www.etsy.com/il-en/listing/1101325891/london-city-map-choose-your-color"><img src="https://i.etsystatic.com/32245569/r/il/c6a803/3408945690/il_794xN.3408945690_c082.jpg" alt="London Four Colors" width="25%"/></a>
 
-Map showing the buildings, greendspaces, and railroads in London, England, United Kingdom.
+Map showing the buildings, greenspaces, and railroads in London, England, United Kingdom.
 
 The maps background and features are styled using the **Charmander** color palette. 
 
