@@ -17,7 +17,7 @@ All maps, unless stated otherwise, are made using only QGIS.
 11|11-11-2021|3D|&check;|Extruded Buildings Tel Aviv, by OSM height\levels|Porygon|
 12|12-11-2021|Population|&check;|Urban Centers Population Growth in Great Britain|Victreebell|
 13|13-11-2021|Data challenge 2: Natural Earth|&check;|Just a bunch of Natural Earth layers|Nidoqueen&Nidoking|
-14|14-11-2021|Map with a new tool||||
+14|14-11-2021|Map with a new tool|&check;|San Francisco elevation hexagons|Venusaur|
 15|15-11-2021|Map made without using a computer||||
 16|16-11-2021|Urban/rural||||
 17|17-11-2021|Land||||
@@ -169,6 +169,12 @@ Since I used so many layers had to use more than one palette for this, so backgr
 <img src="13-Natural Earth(Nidoqueen&Nidoking).png" alt="13-Natural Earth(Nidoqueen&Nidoking)" width="60%"/>
 
 ## Map 14 - Map with a new tool
+
+Used <a href="https://studio.unfolded.ai">Unfolded Studio</a> to create this map,  
+Just started it out and used a shared dataset which was called San Francisco elevation and seems to be divided into H# placekey hexagons.  
+Changed the color scale to use **Venusaur** colors.  
+
+<img src="14-New Tool(Venusaur).gif" alt="14-New Tool(Venusaur)" width="60%"/>
 
 ## Map 15 - Map made without using a computer
 
