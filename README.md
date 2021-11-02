@@ -15,8 +15,8 @@ All maps, unless stated otherwise, are made using only QGIS.
 9|09-11-2021|Monochrome|&check;|Rivers & Lakes in North America|Ditto|
 10|10-11-2021|Raster|&check;|Mars DEM|Gastly|
 11|11-11-2021|3D|&check;|Extruded Buildings Tel Aviv, by OSM height\levels|Porygon|
-12|12-11-2021|Population||||
-13|13-11-2021|Data challenge 2: Natural Earth||||
+12|12-11-2021|Population|&check;|Urban Centers Population Growth in Great Britain|Victreebell|
+13|13-11-2021|Data challenge 2: Natural Earth|&check;|Just a bunch of Natural Earth layers|Nidoqueen&Nidoking|
 14|14-11-2021|Map with a new tool||||
 15|15-11-2021|Map made without using a computer||||
 16|16-11-2021|Urban/rural||||
@@ -26,7 +26,7 @@ All maps, unless stated otherwise, are made using only QGIS.
 20|20-11-2021|Movement||Honeymoon road trip?||
 21|21-11-2021|Elevation||Isle of Skye Tanaka Contours||
 22|22-11-2021|Boundaries||||
-23|23-11-2021|Data challenge 3: GHSL Global Human Settlement Layer||||
+23|23-11-2021|Data challenge 3: GHSL Global Human Settlement Layer||Urban Centre Database UCDB R2019A ||
 24|24-11-2021|Historical map||||
 25|25-11-2021|Interactive map||||
 26|26-11-2021|Choropleth map||||
@@ -151,7 +151,22 @@ The maps background and features are styled using the **Porygon** color palette.
 
 ## Map 12 - Population
 
+Map showing population change in Great Britain urban centers,  
+Data is from the European Commission's Global Human Settlement Layer, Urban Centre Database 2015,  
+displayed over the land layer from Open Zoomstack which is  OS data © Crown copyright and database right 2021   
+No idea why Open Zoomstack doesn't iclude North Ireland.
+The maps background and features are styled using the **Victreebel** color palette. 
+
+<img src="12-Population(Victreebel).png" alt="12-Population(Victreebel)" width="60%"/>
+
 ## Map 13 - Data challenge 2: Natural Earth
+
+Map displaying some of the Natural Earth available layers,  
+layers shown are: Land, Bathymetry, Parks & Protected Areas, Urban Areas, RIver, Lakes, Airports and Sea Ports.  
+Data is obviously from Natural Earth.
+Since I used so many layers had to use more than one palette for this, so background and features are styled using the **Nidoqueen** and **Nidoking** color palettes.  
+
+<img src="13-Natural Earth(Nidoqueen&Nidoking).png" alt="13-Natural Earth(Nidoqueen&Nidoking)" width="60%"/>
 
 ## Map 14 - Map with a new tool
 
