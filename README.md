@@ -31,7 +31,7 @@ All maps, unless stated otherwise, are made using only QGIS.
 25|25-11-2021|Interactive map||||
 26|26-11-2021|Choropleth map||||
 27|27-11-2021|Heatmap||||
-28|28-11-2021|The Earth is not flat||globe with stars||
+28|28-11-2021|The Earth is not flat|&check;|globe with stars, countries colored by last census|Machoke|
 29|29-11-2021|NULL|||missingNo|
 30|30-11-2021|Metamapping day||Blog Post||
 
@@ -208,6 +208,12 @@ Used QGIS to add stripes over it to get a filter with **Golbat** Color Palette.
 ## Map 27 - Heatmap
 
 ## Map 28 - The Earth is not flat
+
+Map showing a globe create using the tutorial from [QGIS Map Desing](), countries colored by year of last census.  
+Data is from Natural Earth.  
+The maps and features are styled using the **Machoke** color palette, background is black with random markers for stars.   
+
+<img src="28-Not Flat(Machoke).png" alt="28-Not Flat(Machoke)" width="60%"/>
 
 ## Map 29 - NULL
 
