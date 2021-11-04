@@ -209,8 +209,8 @@ Used QGIS to add stripes over it to get a filter with **Golbat** Color Palette.
 
 ## Map 28 - The Earth is not flat
 
-Map showing a globe create using the tutorial from [QGIS Map Desing](), countries colored by year of last census.  
-Data is from Natural Earth.  
+Map showing a globe create using the tutorial from [QGIS Map Design](https://locatepress.com/book/qmd2) by Anita Graser and Gretchen N. Peterson,  
+countries colored by year of last census. Data is from Natural Earth.  
 The maps and features are styled using the **Machoke** color palette, background is black with random markers for stars.   
 
 <img src="28-Not Flat(Machoke).png" alt="28-Not Flat(Machoke)" width="60%"/>
