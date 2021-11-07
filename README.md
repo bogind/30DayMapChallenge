@@ -187,6 +187,12 @@ Used QGIS to add stripes over it to get a filter with **Golbat** Color Palette.
 
 ## Map 17 - Land
 
+Map of one layer with a lot of names: "Gray Earth with Shaded Relief, Hypsography, Ocean Bottom, and Drainages"  
+From Natural Earth, focused on the Indian Subcontinent
+The maps background and features are styled using the **Rhyhorn** color palette. 
+
+<img src="17-Land(Rhyhorn).png" alt="17-Land(Rhyhorn)" width="60%"/>
+
 ## Map 18 - Water
 
 Map of bathymetry and names in the Atlantic Ocean, data from Natural Earth.  
