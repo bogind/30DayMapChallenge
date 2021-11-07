@@ -20,7 +20,7 @@ All maps, unless stated otherwise, are made using only QGIS.
 14|14-11-2021|Map with a new tool|&check;|San Francisco elevation hexagons|Venusaur|
 15|15-11-2021|Map made without using a computer|&check;|Pokemon Leaf Green Kanto Map (screenshoted from phone)|Golbat|
 16|16-11-2021|Urban/rural||||
-17|17-11-2021|Land||||
+17|17-11-2021|Land|&check;|Gray Earth with Shaded Relief|Rhyhorn|
 18|18-11-2021|Water|&check;|Bathymetry & names in the Atlantic Ocean|Seel & (a bit of) Seaking|
 19|19-11-2021|Island(s)||||
 20|20-11-2021|Movement||Honeymoon road trip?||
