@@ -21,7 +21,7 @@ All maps, unless stated otherwise, are made using only QGIS.
 15|15-11-2021|Map made without using a computer|&check;|Pokemon Leaf Green Kanto Map (screenshoted from phone)|Golbat|
 16|16-11-2021|Urban/rural||||
 17|17-11-2021|Land||||
-18|18-11-2021|Water||||
+18|18-11-2021|Water|&check;|Bathymetry & names in the Atlantic Ocean|Seel & (a bit of) Seaking|
 19|19-11-2021|Island(s)||||
 20|20-11-2021|Movement||Honeymoon road trip?||
 21|21-11-2021|Elevation||Isle of Skye Tanaka Contours||
@@ -188,6 +188,12 @@ Used QGIS to add stripes over it to get a filter with **Golbat** Color Palette.
 ## Map 17 - Land
 
 ## Map 18 - Water
+
+Map of bathymetry and names in the Atlantic Ocean, data from Natural Earth.  
+The **Seel** palette turned out great, even though I thought about using **Nidoqueen** again since it turned out great in day 13.  
+The maps background and features are styled using the **Seel** and a bit of the **Seaking** color palettes. 
+
+<img src="18-Water(Seal&Seaking).png" alt="18-Water(Seal&Seaking)" width="60%"/>
 
 ## Map 19 - Island(s)
 
