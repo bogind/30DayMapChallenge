@@ -19,7 +19,7 @@ All maps, unless stated otherwise, are made using only QGIS.
 13|13-11-2021|Data challenge 2: Natural Earth|&check;|Just a bunch of Natural Earth layers|Nidoqueen&Nidoking|
 14|14-11-2021|Map with a new tool|&check;|San Francisco elevation hexagons|Venusaur|
 15|15-11-2021|Map made without using a computer|&check;|Pokemon Leaf Green Kanto Map (screenshoted from phone)|Golbat|
-16|16-11-2021|Urban/rural||||
+16|16-11-2021|Urban/rural|&check;|Urban Areas of Italy|Scyther|
 17|17-11-2021|Land|&check;|Gray Earth with Shaded Relief|Rhyhorn|
 18|18-11-2021|Water|&check;|Bathymetry & names in the Atlantic Ocean|Seel & (a bit of) Seaking|
 19|19-11-2021|Island(s)||||
@@ -184,6 +184,23 @@ Used QGIS to add stripes over it to get a filter with **Golbat** Color Palette.
 <img src="15-No Computer(Golbat).png" alt="15-No Computer(Golbat)" width="60%"/>
 
 ## Map 16 - Urban/rural
+
+Map showing the urban areas of Italy according to Natural Earth.  
+Used an expression to filter out polygons outside of Italy in the symbology 
+```py
+    if(
+        intersects( 
+            transform( $geometry,'EPSG:4326',@project_crs ) ,
+            geometry(
+                get_feature( 'ne_countries','name','Italy')
+                )
+            ),
+         "scalerank" ,99)
+```  
+The maps background and features are styled using the **Scyther** color palette.  
+
+<img src="16-Urban_Rural(Scyther).png" alt="16-Urban_Rural(Scyther)" width="60%"/>
+
 
 ## Map 17 - Land
 
