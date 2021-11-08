@@ -32,7 +32,7 @@ All maps, unless stated otherwise, are made using only QGIS.
 26|26-11-2021|Choropleth map||||
 27|27-11-2021|Heatmap||||
 28|28-11-2021|The Earth is not flat|&check;|globe with stars, countries colored by last census|Machoke|
-29|29-11-2021|NULL|||missingNo|
+29|29-11-2021|NULL|&check;|Countries Without Railroads|missingNo|
 30|30-11-2021|Metamapping day||Blog Post||
 
 ## Map 1 - Points
@@ -245,6 +245,12 @@ The maps and features are styled using the **Machoke** color palette, background
 <img src="28-Not Flat(Machoke).png" alt="28-Not Flat(Machoke)" width="60%"/>
 
 ## Map 29 - NULL
+
+Map of countries without railroads, legend is missing, and the color palette isn't included in [Pokemon Color Palettes](https://plugins.qgis.org/styles/103/)  
+The data is from Natural Earth.  
+The map's background and features are styled using the **MissingNo**.  
+
+<img src="29-NULL(MissingNo).png" alt="29-NULL(MissingNo)" width="60%"/>
 
 ## Day 30 - Metamapping day
 
