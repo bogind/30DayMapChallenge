@@ -22,7 +22,7 @@ All maps, unless stated otherwise, are made using only QGIS.
 16|16-11-2021|Urban/rural|&check;|Urban Areas of Italy|Scyther|
 17|17-11-2021|Land|&check;|Gray Earth with Shaded Relief|Rhyhorn|
 18|18-11-2021|Water|&check;|Bathymetry & names in the Atlantic Ocean|Seel & (a bit of) Seaking|
-19|19-11-2021|Island(s)||||
+19|19-11-2021|Island(s)||Islands withing lakes, within Islands|Lapras?|
 20|20-11-2021|Movement||Honeymoon road trip?||
 21|21-11-2021|Elevation||Isle of Skye Tanaka Contours||
 22|22-11-2021|Boundaries||||
