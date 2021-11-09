@@ -220,6 +220,8 @@ The maps background and features are styled using the **Seel** and a bit of the 
 
 ## Map 19 - Island(s)
 
+Volcan point on Volcano Island in Taal Lake, and Inception Island
+
 ## Map 20 - Movement
 
 ## Map 21 - Elevation
