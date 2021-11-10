@@ -220,7 +220,11 @@ The maps background and features are styled using the **Seel** and a bit of the 
 
 ## Map 19 - Island(s)
 
-Volcan point on Volcano Island in Taal Lake, and Inception Island
+Map of Islands, Inside Lakes, Inside Islands, Inside Lakes.  
+Volcan point on Volcano Island in Taal Lake, Philipines, and Inception Island in Nunavut, Canada.  
+The maps background and features are styled using the **Lapras** color palette. 
+
+<img src="19-Islands(Lapras).png" alt="19-Islands(Lapras)" width="60%"/>
 
 ## Map 20 - Movement
 
