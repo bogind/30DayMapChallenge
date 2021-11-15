@@ -22,8 +22,8 @@ All maps, unless stated otherwise, are made using only QGIS.
 16|16-11-2021|Urban/rural|&check;|Urban Areas of Italy|Scyther|
 17|17-11-2021|Land|&check;|Gray Earth with Shaded Relief|Rhyhorn|
 18|18-11-2021|Water|&check;|Bathymetry & names in the Atlantic Ocean|Seel & (a bit of) Seaking|
-19|19-11-2021|Island(s)||Islands withing lakes, within Islands|Lapras?|
-20|20-11-2021|Movement||Honeymoon road trip?||
+19|19-11-2021|Island(s)|&check;|Islands withing lakes, within Islands|Lapras|
+20|20-11-2021|Movement|&check;|Hurricane Katrina path (2005)|Tentacruel|
 21|21-11-2021|Elevation||Isle of Skye Tanaka Contours||
 22|22-11-2021|Boundaries||||
 23|23-11-2021|Data challenge 3: GHSL Global Human Settlement Layer||Urban Centre Database UCDB R2019A ||
@@ -231,6 +231,13 @@ The maps background and features are styled using the **Lapras** color palette.
 <img src="19-Islands(Lapras).png" alt="19-Islands(Lapras)" width="60%"/>
 
 ## Map 20 - Movement
+
+Map of the path of Hurricant Katrina from august 2005.  
+Data taken from [NOAA](https://www.coast.noaa.gov/hurricanes/#map=4.5/31.99/-82.35&search=eyJzZWFyY2hTdHJpbmciOiJLQVRSSU5BIDIwMDUiLCJzZWFyY2hUeXBlIjoibmFtZSIsIm1hdGNoIjoiZXhhY3QiLCJjYXRlZ29yaWVzIjpbIkg1IiwiSDQiLCJIMyIsIkgyIiwiSDEiLCJUUyIsIlREIiwiRVQiXSwieWVhcnMiOltdLCJtb250aHMiOltdLCJlbnNvIjpbXSwicHJlc3N1cmUiOnsicmFuZ2UiOlswLDExNTBdLCJpbmNsdWRlVW5rbm93blByZXNzdXJlIjp0cnVlfSwic2VsZWN0ZWRTdG9ybUlEIjoiMjAwNTIzNk4yMzI4NSIsImJ1ZmZlclVuaXQiOlsiTWlsZXMiXSwic29ydFNlbGVjdGlvbiI6eyJ2YWx1ZSI6InllYXJzX25ld2VzdCIsImxhYmVsIjoiWWVhciAoTmV3ZXN0KSJ9LCJhcHBseVRvQU9JIjpmYWxzZSwiaXNTdG9ybUxhYmVsc1Zpc2libGUiOnRydWV9) and colored and sized by wind speed and pressure.  
+The maps background and features were colored with the **Tentacruel** color palette.  
+The video was captures directly from the canvas in QGIS and contains some of the new annotation layers.
+
+<img src="20-Movement(Tentacruel).gif" alt="20-Movement(Tentacruel)" width="60%"/>
 
 ## Map 21 - Elevation
 
