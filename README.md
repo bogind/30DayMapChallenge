@@ -182,6 +182,10 @@ For this one I just screenshot the Kanto region map fro Pokemon Leaf Green from 
 Used QGIS to add stripes over it to get a filter with **Golbat** Color Palette.  
 
 <img src="15-No Computer(Golbat).png" alt="15-No Computer(Golbat)" width="60%"/>
+  
+My Wife said using the phone was cheating so I also made a second map, which is my neighborhood, colored by (pretty much) the **Golbat** colors.  
+
+<img src="15-No Computer2(Golbat).png" alt="15-No Computer2(Golbat)" width="60%"/>
 
 ## Map 16 - Urban/rural
 
