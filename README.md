@@ -25,12 +25,12 @@ All maps, unless stated otherwise, are made using only QGIS.
 19|19-11-2021|Island(s)|&check;|Islands withing lakes, within Islands|Lapras|
 20|20-11-2021|Movement|&check;|Hurricane Katrina path (2005)|Tentacruel|
 21|21-11-2021|Elevation||Isle of Skye Tanaka Contours||
-22|22-11-2021|Boundaries||||
+22|22-11-2021|Boundaries||Middle Earth Realms||
 23|23-11-2021|Data challenge 3: GHSL Global Human Settlement Layer||Urban Centre Database UCDB R2019A ||
 24|24-11-2021|Historical map||||
-25|25-11-2021|Interactive map||||
+25|25-11-2021|Interactive map||Honeymoon roadtrip||
 26|26-11-2021|Choropleth map||||
-27|27-11-2021|Heatmap||||
+27|27-11-2021|Heatmap||a literall map of where it's hot|Magmar|
 28|28-11-2021|The Earth is not flat|&check;|globe with stars, countries colored by last census|Machoke|
 29|29-11-2021|NULL|&check;|Countries Without Railroads|missingNo|
 30|30-11-2021|Metamapping day||Blog Post||
