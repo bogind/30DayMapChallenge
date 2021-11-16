@@ -24,8 +24,8 @@ All maps, unless stated otherwise, are made using only QGIS.
 18|18-11-2021|Water|&check;|Bathymetry & names in the Atlantic Ocean|Seel & (a bit of) Seaking|
 19|19-11-2021|Island(s)|&check;|Islands withing lakes, within Islands|Lapras|
 20|20-11-2021|Movement|&check;|Hurricane Katrina path (2005)|Tentacruel|
-21|21-11-2021|Elevation||Isle of Skye Tanaka Contours||
-22|22-11-2021|Boundaries||Middle Earth Realms||
+21|21-11-2021|Elevation|&check;|Isle of Skye Tanaka Contours|Snorlax|
+22|22-11-2021|Boundaries|&check;|Middle Earth Realms|Doduo & Farfetchd|
 23|23-11-2021|Data challenge 3: GHSL Global Human Settlement Layer||Urban Centre Database UCDB R2019A ||
 24|24-11-2021|Historical map||||
 25|25-11-2021|Interactive map||Honeymoon roadtrip||
@@ -241,7 +241,19 @@ The video was captures directly from the canvas in QGIS and contains some of the
 
 ## Map 21 - Elevation
 
+Map of the elevation in the Isle of Skye, Scotland, with some Tanaka contours, added a small cutout of OpenStreetMap for reference.  
+Data is from Open Zoomstack - OS data © Crown copyright and database right 2021 
+Elevation was colored with the **Snorlax** color palette, background is OpenStreetMap Ocean blue.  
+
+<img src="21-Elevation(Snorlax).png" alt="21-Elevation(Snorlax)" width="60%"/>  
+
 ## Map 22 - Boundaries
+
+Map of the boundaries of Middle Earth, both known kingdoms of men borders, the Elf woods, the Ent woods and Mordor where shadows lie.  
+Data from [GIS & Middle Earth (Robert A. Rose, 2020)](https://scholarworks.wm.edu/asoer/3/).  
+Background and features were colored with the **Doduo** and **Farfetchd** color palettes.
+
+<img src="22-Boundaries(Dodou&Farfetchd).png" alt="22-Boundaries(Dodou&Farfetchd)" width="60%"/>
 
 ## Map 23 - Data challenge 3: GHSL Global Human Settlement Layer
 
