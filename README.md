@@ -26,8 +26,8 @@ All maps, unless stated otherwise, are made using only QGIS.
 20|20-11-2021|Movement|&check;|Hurricane Katrina path (2005)|Tentacruel|
 21|21-11-2021|Elevation|&check;|Isle of Skye Tanaka Contours|Snorlax|
 22|22-11-2021|Boundaries|&check;|Middle Earth Realms|Doduo & Farfetchd|
-23|23-11-2021|Data challenge 3: GHSL Global Human Settlement Layer||Urban Centre Database UCDB R2019A ||
-24|24-11-2021|Historical map||||
+23|23-11-2021|Data challenge 3: GHSL Global Human Settlement Layer|&check;|Urban centers in Iceland|Nidoran♀|
+24|24-11-2021|Historical map|&check;|John Snow's Cholera Map|Kabutops|
 25|25-11-2021|Interactive map||Honeymoon roadtrip||
 26|26-11-2021|Choropleth map||||
 27|27-11-2021|Heatmap||a literall map of where it's hot|Magmar|
@@ -264,6 +264,12 @@ Background and features were colored with the **Nidoran♀** color palette since
 <img src="23-GHSL(Nidoran♀).png" alt="23-GHSL(Nidoran♀)" width="60%"/>
 
 ## Map 24 - Historical map
+
+A recreation of John Snow's Cholera Map, but with lines to nearest pump and colored as a Pokemon.  
+The lines were created with the QGIS geometry generator and overlay_nearest in a second, one of my favorite expression functions.  
+Background and features were colored with the **Kabutops** color palette.  
+
+<img src="24-Historical(Kabutops).png" alt="24-Historical(Kabutops)" width="60%"/>
 
 ## Map 25 - Interactive map
 
