@@ -257,6 +257,12 @@ Background and features were colored with the **Doduo** and **Farfetchd** color 
 
 ## Map 23 - Data challenge 3: GHSL Global Human Settlement Layer
 
+Map of the urban centers in Iceland according to the Global Human Settlement Layer's Urban Centre Database UCDB R2019A.  
+Since I used this dataset already in day 12, had to add some more data from OpenStreetMap (land, glaciers, water, bare rock) to add some colors.  
+Background and features were colored with the **Nidoran♀** color palette since it's the best color palettes I could find that had blue(ish) and red(ish) for Iceland.  
+
+<img src="23-GHSL(Nidoran♀).png" alt="23-GHSL(Nidoran♀)" width="60%"/>
+
 ## Map 24 - Historical map
 
 ## Map 25 - Interactive map
