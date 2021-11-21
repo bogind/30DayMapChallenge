@@ -265,6 +265,15 @@ Background and features were colored with the **Doduo** and **Farfetchd** color 
 
 ## Map 27 - Heatmap
 
+steps:
+1. https://cloud.google.com/storage/docs/gsutil_install#deb
+2. https://sites.research.google/open-buildings/#download
+3. https://askubuntu.com/questions/693409/how-can-i-extract-multiple-gzip-files-in-directory-and-subdirectories
+4. https://gis.stackexchange.com/a/303230/108903
+5. https://gdal.org/drivers/vector/csv.html#open-options
+
+
+
 ## Map 28 - The Earth is not flat
 
 Map showing a globe create using the tutorial from [QGIS Map Design](https://locatepress.com/book/qmd2) by Anita Graser and Gretchen N. Peterson,  
