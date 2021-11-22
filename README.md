@@ -30,7 +30,7 @@ All maps, unless stated otherwise, are made using only QGIS.
 24|24-11-2021|Historical map|&check;|John Snow's Cholera Map|Kabutops|
 25|25-11-2021|Interactive map|&check;|Honeymoon roadtrip|Clefable|
 26|26-11-2021|Choropleth map||||
-27|27-11-2021|Heatmap||a literall map of where it's hot|Magmar|
+27|27-11-2021|Heatmap|&check;|a literall map of where it's hot|Magmar|
 28|28-11-2021|The Earth is not flat|&check;|globe with stars, countries colored by last census|Machoke|
 29|29-11-2021|NULL|&check;|Countries Without Railroads|missingNo|
 30|30-11-2021|Metamapping day||Blog Post||
@@ -283,14 +283,11 @@ Background and features were colored with the **Clefable** color palette.
 
 ## Map 27 - Heatmap
 
-steps:
-1. https://cloud.google.com/storage/docs/gsutil_install#deb
-2. https://sites.research.google/open-buildings/#download
-3. https://askubuntu.com/questions/693409/how-can-i-extract-multiple-gzip-files-in-directory-and-subdirectories
-4. https://gis.stackexchange.com/a/303230/108903
-5. https://gdal.org/drivers/vector/csv.html#open-options
+A literal heat map, a map of where it's hot.  
+Using land surface temperature data between January 1st 2020 and January 1st 2021 and colored using a modified **Magmar** color palette.  
+Data prepared in [Google Earth Engine](https://code.earthengine.google.com/?scriptPath=users%2Fdrorbogin%2Fdefault%3AMagmar%20LST) and lyout prepared in QGIS.  
 
-
+<img src="27-Heatmap(Magmar).png" alt="27-Heatmap(Magmar)" width="60%"/>
 
 ## Map 28 - The Earth is not flat
 
