@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Display a map</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+<script src="https://unpkg.com/maplibre-gl@1.15.2/dist/maplibre-gl.js"></script>
+<link href="https://unpkg.com/maplibre-gl@1.15.2/dist/maplibre-gl.css" rel="stylesheet" />
+<style>
+	body { margin: 0; padding: 0; }
+	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    .mapboxgl-popup-content, .maplibregl-popup-content {width: fit-content;}
+    .poke-control {width: 350px}
+    .text-contorl {font-size: 2em;}
+
+</style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+    var map = new maplibregl.Map({
+        container: 'map', // container id
+        style: './style.json', // style URL
+        center: [-4.170433,54.49110], // starting position [lng, lat]
+        zoom: 5.5 // starting zoom
+    });
+    var hoveredStateId = null;
+    map.on('load', function () {
+        
+            map.addSource('point', {
+                'type': 'geojson',
+                'data': "honeymoon.geojson"
+            });
+            map.addLayer({
+                'id': 'point',
+                'source': 'point',
+                'type': 'circle',
+                'paint': {
+                    'circle-radius': 10,
+                    'circle-color': '#de6262',
+                    'circle-stroke-width':[
+                    'case',
+                    ['boolean', ['feature-state', 'hover'], false],
+                    4,
+                    0
+                    ] ,
+                    'circle-stroke-color':'#bd5a7b'
+                }
+            });
+
+            map.addLayer({
+                'id': 'poi-labels',
+                'type': 'symbol',
+                'source': 'point',
+                'layout': {
+                    'text-field': ['concat',['get', 'order'],'. ',['get', 'name']],
+                    'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
+                    'text-radial-offset': 0.5,
+                    'text-justify': 'auto',
+                    'icon-image': ['concat', ['get', 'icon'], '-15']
+                },
+                'paint':{
+                    'text-halo-color':'#ffffff',
+                    'text-halo-width':1.5,
+                }
+            });
+            let quakeID = null;
+            var popup = new maplibregl.Popup();
+
+            map.on('mousemove', 'point', (event) => {
+                map.getCanvas().style.cursor = 'pointer';
+
+                // Check whether features exist
+                if (event.features.length === 0) return;
+
+                // If quakeID for the hovered feature is not null,
+                // use removeFeatureState to reset to the default behavior
+                if (quakeID) {
+                    map.removeFeatureState({
+                    source: 'point',
+                    id: quakeID
+                    });
+                }
+
+                quakeID = event.features[0].id;
+                
+
+                // When the mouse moves over the earthquakes-viz layer, update the
+                // feature state for the feature under the mouse
+                map.setFeatureState(
+                    {
+                    source: 'point',
+                    id: quakeID
+                    },
+                    {
+                    hover: true
+                    }
+                );
+                });
+
+            map.on('click','point', function (e) {
+                var feature = e.features[0]
+                var coordinates = feature.geometry.coordinates.slice();
+                while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+                    }
+                var description = `<center><h1>${feature.properties["name"]}</h1>`
+                description += (feature.properties["main_image"].length > 0 && feature.properties["main_image"] != "null") ? '<img src="'+feature.properties["main_image"]+'" width="400px"/>' : '';
+                description += (feature.properties["secondary_image"].length > 0 && feature.properties["secondary_image"] != "null") ? '<img src="'+feature.properties["secondary_image"]+'" width="200px"/>' : '';
+                description += "</center>"
+                popup.setLngLat(coordinates).setHTML(description).addTo(map);
+
+            })
+
+
+            
+            class PokeControl {
+                onAdd(map) {
+                this._map = map;
+                this._container = document.createElement('img');
+                this._container.className = 'maplibregl-ctrl poke-control';
+                this._container.src = 'https://pokepalettes.com/images/sprites/poke/bw/36.png';
+                
+                return this._container;
+            }
+            
+            onRemove() {
+                this._container.parentNode.removeChild(this._container);
+                this._map = undefined;
+                }
+            }
+
+            class TextControl {
+                onAdd(map) {
+                this._map = map;
+                this._container = document.createElement('div');
+                this._container.className = 'maplibregl-ctrl text-contorl';
+                this._container.innerHTML = '<h2>Day 25 - Interactive Map</h2>\
+                <p>My Honeymoon map, Scotland, and a bit of England and Wales</p>\
+                <p>Color Palette - Clefable (because they\'re from the moon 🌑)';
+                
+                return this._container;
+            }
+            
+            onRemove() {
+                this._container.parentNode.removeChild(this._container);
+                this._map = undefined;
+                }
+            }
+
+            
+            map.addControl(new PokeControl(),"bottom-right");
+            map.addControl(new TextControl(),"bottom-left");
+    })
+</script>
+
+</body>
+</html>

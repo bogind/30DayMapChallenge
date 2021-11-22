@@ -28,7 +28,7 @@ All maps, unless stated otherwise, are made using only QGIS.
 22|22-11-2021|Boundaries|&check;|Middle Earth Realms|Doduo & Farfetchd|
 23|23-11-2021|Data challenge 3: GHSL Global Human Settlement Layer|&check;|Urban centers in Iceland|Nidoran♀|
 24|24-11-2021|Historical map|&check;|John Snow's Cholera Map|Kabutops|
-25|25-11-2021|Interactive map||Honeymoon roadtrip||
+25|25-11-2021|Interactive map|&check;|Honeymoon roadtrip|Clefable|
 26|26-11-2021|Choropleth map||||
 27|27-11-2021|Heatmap||a literall map of where it's hot|Magmar|
 28|28-11-2021|The Earth is not flat|&check;|globe with stars, countries colored by last census|Machoke|
@@ -272,6 +272,12 @@ Background and features were colored with the **Kabutops** color palette.
 <img src="24-Historical(Kabutops).png" alt="24-Historical(Kabutops)" width="60%"/>
 
 ## Map 25 - Interactive map
+
+An interactive map of my honeymoon trip through Scotland (with a bit of England and Wales) 
+Created using [MapLibre GL JS](https://maplibre.org/maplibre-gl-js-docs/api/)  
+Background and features were colored with the **Clefable** color palette.  
+
+<a href=""><img src="25-Interactive(Clefable).png" alt="25-Interactive(Clefable)" width="60%"/></a>
 
 ## Map 26 - Choropleth map
 
