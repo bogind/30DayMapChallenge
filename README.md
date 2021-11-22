@@ -277,7 +277,7 @@ An interactive map of my honeymoon trip through Scotland (with a bit of England 
 Created using [MapLibre GL JS](https://maplibre.org/maplibre-gl-js-docs/api/)  
 Background and features were colored with the **Clefable** color palette.  
 
-<a href=""><img src="25-Interactive(Clefable).png" alt="25-Interactive(Clefable)" width="60%"/></a>
+<a href="https://bogind.github.io/30DayMapChallenge/25/"><img src="25-Interactive(Clefable).png" alt="25-Interactive(Clefable)" width="60%"/></a>
 
 ## Map 26 - Choropleth map
 
