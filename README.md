@@ -285,7 +285,8 @@ Background and features were colored with the **Clefable** color palette.
 
 A literal heat map, a map of where it's hot.  
 Using land surface temperature data between January 1st 2020 and January 1st 2021 and colored using a modified **Magmar** color palette.  
-Data prepared in [Google Earth Engine](https://code.earthengine.google.com/?scriptPath=users%2Fdrorbogin%2Fdefault%3AMagmar%20LST) and lyout prepared in QGIS.  
+Data is from [GCOM-C/SGLI L3 Land Surface Temperature (V2)](https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_LAND_LST_V2#description).  
+Prepared in [Google Earth Engine](https://code.earthengine.google.com/?scriptPath=users%2Fdrorbogin%2Fdefault%3AMagmar%20LST) and layout prepared in QGIS.  
 
 <img src="27-Heatmap(Magmar).png" alt="27-Heatmap(Magmar)" width="60%"/>
 
