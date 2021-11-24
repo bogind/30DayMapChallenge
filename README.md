@@ -29,7 +29,7 @@ All maps, unless stated otherwise, are made using only QGIS.
 23|23-11-2021|Data challenge 3: GHSL Global Human Settlement Layer|&check;|Urban centers in Iceland|Nidoran♀|
 24|24-11-2021|Historical map|&check;|John Snow's Cholera Map|Kabutops|
 25|25-11-2021|Interactive map|&check;|Honeymoon roadtrip|Clefable|
-26|26-11-2021|Choropleth map||||
+26|26-11-2021|Choropleth map|&check;|Distance from Belgium|Mewtwo|
 27|27-11-2021|Heatmap|&check;|a literall map of where it's hot|Magmar|
 28|28-11-2021|The Earth is not flat|&check;|globe with stars, countries colored by last census|Machoke|
 29|29-11-2021|NULL|&check;|Countries Without Railroads|missingNo|
@@ -280,6 +280,23 @@ Background and features were colored with the **Clefable** color palette.
 <a href="https://bogind.github.io/30DayMapChallenge/25/"><img src="25-Interactive(Clefable).png" alt="25-Interactive(Clefable)" width="60%"/></a>
 
 ## Map 26 - Choropleth map
+
+How much should you be afraid of a Belgian invasion? Very!  
+Belgium is the rudest word in the universe [and for a reason](https://hitchhikers.fandom.com/wiki/Belgium).  
+What is your countries distance from the Belgian border (in Kilometers), calculated using a simple SQL query in Postgis and displayed in QGIS.
+This is the query:  
+```sql
+WITH belgium as (
+     	SELECT geom, name 	
+        FROM ne_countries 	
+        WHERE name = 'Belgium' ) 
+
+SELECT n.name,n.geom, st_distance(n.geom, belgium.geom)/1000 dist 
+FROM ne_countries n,belgium 
+```
+Background and features were colored with the **Mewtwo** color palette.   
+
+<img src="26-Choropleth(Mewtwo).png" alt="26-Choropleth(Mewtwo)" width="60%"/>
 
 ## Map 27 - Heatmap
 
