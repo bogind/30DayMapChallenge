@@ -8,6 +8,11 @@
     <script src="https://mode.github.io/alamode/alamode.min.js"></script>
     <title>30 Maps For 30 Days</title>
     <style>
+        body{
+            margin: 0;
+            height: 100%;
+            width: 100%;
+        }
         *, ::before, ::after {
     box-sizing: inherit;
 }
@@ -18,9 +23,13 @@
         td {
     padding: 0.5rem;
     border: 1px solid #dedede;
+    width: calc(100vw / 5 - 18px);
     }
     tr, td, th {
         vertical-align: middle;
+    }
+    img {
+        width: calc(100vw / 5 - 20px);
     }
     </style>
 </head>
